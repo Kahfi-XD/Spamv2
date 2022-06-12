@@ -46,7 +46,7 @@ print ('\033[31mNomor awali dari : \033[94m 8xxxx')
 
 #Run nomor
 
-nomor = input(' \033[33mNomor target lu :\033[90m ')
+nomor = input(' \033[33+62 822-8592-2863 :\033[90m ')
 req=requests.get("https://ainxbot-sms.herokuapp.com/api/spamsms",params={"phone":nomor}).text
 if 'terkirim' in req:
      print (' \033[32m[√] \033[94mspam berhasil ngab :) ')
